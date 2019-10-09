@@ -37,7 +37,7 @@ var populateProject = function(card) {
 	$("#projectDates").html(date);
 	$("#projectPurpose").html(purpose);
 	$("#projectTag").html(tag);
-	$("#projectImage").attr("src", "C:\\Users\\la161961\\lawrence-portfolio\\portfolio 2.0\\img\\" + image + ".jpg");
+	$("#projectImage").html(image);
 
 	if(tag == "") {
 		$("#projectTag").hide();
