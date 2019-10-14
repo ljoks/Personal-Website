@@ -38,6 +38,7 @@ var populateProject = function(card) {
 	$("#projectPurpose").html(purpose);
 	$("#projectTag").html(tag);
 	$("#projectImage").html(image);
+	$("#projectImage").attr("src", "img/" + image);
 
 	if(tag == "") {
 		$("#projectTag").hide();
