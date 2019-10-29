@@ -127,7 +127,6 @@ img.git {
 .card {
   cursor: pointer;
   border: 1px solid rgb(223, 223, 223);
-  height: 250px;
 }
 
 .card.image {
@@ -144,6 +143,7 @@ img.git {
   box-sizing: border-box;
   border-radius: 1px;
   background-clip: padding-box;
+	height: 250px;
 }
 .card span.card-title {
     color: #fff;
