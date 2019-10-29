@@ -51,7 +51,7 @@ var populateProject = function(card) {
 	});
 }
 
-populateProject($("#poltergeistProject"));
+populateProject($("#plannerProject"));
 
 $( ".card" ).click(function() {
 	var card = $(this);
