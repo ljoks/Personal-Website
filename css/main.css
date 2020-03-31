@@ -281,7 +281,7 @@ a.resume-link {
 }
 
 a.resume-link:before {
-	background: #2EAFDB;
+	background: #2ec4db;
 }
 
 .main-menu {
@@ -431,13 +431,18 @@ img#projectImage {
     background-size: cover;
 }
 
-#twitter h3{
+#more-content h3 {
   color: grey;
 }
 
+#more-content iframe {
+	border: 0;
+	box-shadow: 5px 5px 15px grey;
+}
+
 #social li a img {
-	width: 20px;
-	height: auto;
+	width: 30px;
+	height: 30px;
 }
 
 #social li a img:hover {
